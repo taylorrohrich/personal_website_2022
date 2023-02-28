@@ -8,6 +8,14 @@
 .container:not(:last-child) {
   border-bottom: 1px solid var(--comment);
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    gap: 16px;
+    padding: 16px 0 16px 0;
+  }
+}
+
 .icon {
   display: flex;
   align-items: center;
@@ -17,6 +25,7 @@
   font-size: 3.6rem;
   background-color: var(--background);
 }
+
 .icon > svg {
   color: var(--foreground);
 }
