@@ -1,0 +1,19 @@
+.container {
+  font-weight: bold;
+  font-size: 2.4rem;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  padding: 32px;
+}
+
+.container > a:hover {
+  color: var(--green);
+}
+
+.navItem {
+  color: var(--background);
+}
+.navItemActive {
+  color: var(--green);
+}

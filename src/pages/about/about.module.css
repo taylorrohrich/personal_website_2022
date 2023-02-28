@@ -1,0 +1,21 @@
+.container {
+  margin: 32px;
+}
+.header {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: var(--green);
+}
+
+.skillsContainer {
+  margin: 32px 0 32px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.skillsContainer > div {
+  padding: 16px;
+  background-color: var(--background);
+  border-radius: 8px;
+  color: var(--orange);
+}

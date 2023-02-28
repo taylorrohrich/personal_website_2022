@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 32px;
+  font-size: 2.4rem;
+}
+.container:not(:last-child) {
+  border-bottom: 1px solid var(--comment);
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  padding: 12px;
+  font-size: 3.6rem;
+  background-color: var(--background);
+}
+.icon > svg {
+  color: var(--foreground);
+}
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.subTitle {
+  color: var(--purple);
+}
+.info {
+  font-weight: lighter;
+  color: var(--orange);
+}
